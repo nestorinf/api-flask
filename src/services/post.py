@@ -1,3 +1,6 @@
+from src.repositories.postRepository import PostRepository
+
 class Post_Service():
     def get():
-        return 'Post_Service all'
+        data = PostRepository.get_all()
+        return data
