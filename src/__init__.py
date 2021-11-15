@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,request
 from config.database import db
 from flask_sqlalchemy import SQLAlchemy
 from flask_compress import Compress
