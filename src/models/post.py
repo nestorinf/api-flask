@@ -1,4 +1,4 @@
-# from sqlalchemy import Model, Column, Integer, String
+# from sqlalchemy import Model, Column, Integer, String Float
 from src import database
 from sqlalchemy.orm import validates
 class Post(database.Model):
